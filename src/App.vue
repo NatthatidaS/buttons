@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="row">
+      <div class="col-6">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Anodard_Pond_%28II%29.jpg/600px-Anodard_Pond_%28II%29.jpg" alt="">
+         <CSbutton/>
+      </div>
+      <div class="col-6">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Anodard_Pond_%28I%29.jpg/600px-Anodard_Pond_%28I%29.jpg" alt="">
+         <CSbutton/>
+      </div>
+    </div>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CSbutton from './components/button'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CSbutton
   }
 }
 </script>
